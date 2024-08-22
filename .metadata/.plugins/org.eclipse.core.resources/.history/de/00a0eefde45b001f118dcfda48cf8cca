@@ -1,0 +1,22 @@
+package arrays;
+
+public class ArraysMaxSubArraySum {
+
+	public static void main(String[] args) {
+		int[] arr1 = {10, 20, 30, 40}; // max(30, 50, 70) = 70
+		int k1 = 2;
+		
+		int[] arr2 = {1, 6, 2, 8, 25, 18, 0, 20, 13}; // max(9,16,35,51,43,38,33) = 51
+		int k2 = 3;
+		
+		
+	}
+	
+	public static int maxSumSlidingWindowTechnique(int[] arr, int arrSize, int subArraySize) {
+		
+		
+		
+		return 0;
+	}
+
+}

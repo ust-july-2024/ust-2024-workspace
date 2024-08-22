@@ -1,0 +1,14 @@
+package sortingandsearching;
+
+public class SearchingDemo {
+
+	public static void main(String[] args) {
+		int[] array = {3, 9, 34, 1, 20, 70, 52, 43, 15};
+		
+	}
+
+	public static int linearSearch(int[] myArr, int N, int searchElement) {
+		
+		
+	}
+}

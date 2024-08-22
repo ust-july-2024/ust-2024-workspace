@@ -1,0 +1,18 @@
+package arrays;
+
+public class OneDArrayDemo {
+
+	public static void main(String[] args) {
+		int mathMark = 70;
+		
+		int[] myArray = new int[5];
+		myArray[0] = 40;
+		myArray[1] = 50;
+		myArray[2] = 20;
+		myArray[3] = 80;
+		myArray[4] = 60;
+		
+
+	}
+
+}

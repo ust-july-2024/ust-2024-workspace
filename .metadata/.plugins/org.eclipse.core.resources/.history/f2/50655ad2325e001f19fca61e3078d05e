@@ -1,0 +1,24 @@
+package sortingandsearching;
+
+public class SearchingDemo {
+
+	public static void main(String[] args) {
+		int[] array = {3, 9, 34, 1, 20, 70, 52, 43, 15};
+		
+		int searchIndex = linearSearchByElement(array, array.length, 100);
+		System.out.println("52 is at index : " + searchIndex);
+	}
+
+	public static int linearSearchByElement(int[] myArr, int N, int searchElement) {
+		for(int i=0;i<N;i++) {
+			if(myArr[i] == searchElement) {
+				return i;
+			}
+		}
+		return -1;
+	}
+	
+	public static int searchByIndex(int[] myArr, int N, int index) {
+		return myArr[index];
+	}
+}

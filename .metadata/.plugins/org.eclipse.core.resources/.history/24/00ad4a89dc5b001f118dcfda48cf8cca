@@ -1,0 +1,25 @@
+package arrays;
+
+public class ArraysPairEqualsSum {
+
+	//{10, 20, 35, 50, 75, 80}
+	// sum = 70
+	
+	public static void main(String[] args) {
+		
+		int[] sortedArray = {10, 20, 35, 50, 75, 80};
+		int sum = 70;
+		
+		
+		
+
+	}
+	
+	public static boolean isPairEqualsSumNaive(int sortedArray, int sum) {
+		
+		
+		
+		return false;
+	}
+
+}

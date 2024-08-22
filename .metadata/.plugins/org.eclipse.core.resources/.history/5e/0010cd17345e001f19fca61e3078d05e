@@ -1,0 +1,9 @@
+package sortingandsearching;
+
+public class BinarySearchDemo {
+
+	public static void main(String[] args) {
+		int[] array = {20, 40, 50, 70, 75, 80, 95, 100, 120, 125, 150};
+	}
+
+}
