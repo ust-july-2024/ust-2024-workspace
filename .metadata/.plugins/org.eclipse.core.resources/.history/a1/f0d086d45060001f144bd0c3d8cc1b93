@@ -1,0 +1,13 @@
+package classesandobjects;
+
+public class AnimalDemo {
+
+	public static void main(String[] args) {
+		Dog dog = new Dog("Roxie");
+		dog.breathe();
+		dog.mobility();
+		dog.friendly();
+		System.out.println("--------------");
+	}
+
+}

@@ -1,0 +1,11 @@
+package collections;
+
+public class MyArrayList {
+
+	int[] data;
+	
+	MyArrayList(int capacity){
+		data = new int[capacity];
+	}
+	
+}

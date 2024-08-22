@@ -1,0 +1,25 @@
+package collections;
+
+public class MyArrayList {
+
+	int[] data;
+	int capacity;
+	int size;
+	
+	MyArrayList(){
+		data = new int[4];
+		capacity = 4;
+		size = 0;
+	}
+	
+	MyArrayList(int capacity){
+		data = new int[capacity];
+		this.capacity = capacity;
+		size = 0;
+	}
+	
+	int addElement(int element) {
+		data[size] = element;
+		return size++;
+	}
+}

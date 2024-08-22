@@ -1,0 +1,22 @@
+package classesandobjects;
+
+public class FordFigoTitanium extends FordFigo {
+	int noOfAirbags;
+	
+	public FordFigoTitanium(String model, String color, int year, double price, int noOfAirbags) {
+		super(model, color, year, price); // constructor chaining
+//		this.model = model;
+//		this.color = color;
+//		this.year = year;
+//		this.price = price;
+		this.noOfAirbags = noOfAirbags;
+	}
+	
+	public FordFigoTitanium(String model, String color, int year, double price, String registrationNumber, int noOfAirbags) {
+		
+	}
+	
+	String ejectAirbags() {
+		return model + " airbags ejected";
+	}
+}

@@ -1,0 +1,6 @@
+package classesandobjects;
+
+public class CasaGrande implements SafetyGuidelines2021{
+	
+
+}

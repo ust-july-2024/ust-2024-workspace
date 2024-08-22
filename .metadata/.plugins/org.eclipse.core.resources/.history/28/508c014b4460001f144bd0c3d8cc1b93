@@ -1,0 +1,13 @@
+package classesandobjects;
+
+public class FordFigoTitanium extends FordFigo {
+	int noOfAirbags;
+	
+	public FordFigoTitanium() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	String ejectAirbags() {
+		return model + " airbags ejected";
+	}
+}

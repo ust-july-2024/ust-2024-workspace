@@ -1,0 +1,10 @@
+package classesandobjects;
+
+public class Snake {
+	
+	Snake(String name){
+		super(name);
+	}
+	
+	
+}

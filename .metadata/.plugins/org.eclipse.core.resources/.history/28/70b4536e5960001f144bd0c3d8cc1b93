@@ -1,0 +1,33 @@
+package collections;
+
+public class MyArrayList {
+
+	int[] data;
+	int capacity;
+	int size;
+	
+	MyArrayList(){
+		data = new int[4];
+		capacity = 4;
+		size = 0;
+	}
+	
+	MyArrayList(int capacity){
+		data = new int[capacity];
+		this.capacity = capacity;
+		size = 0;
+	}
+	
+	int addElement(int element) {
+		if(size == capacity) {
+			// means the array is full
+			// so we should grow the array
+			int[] biggerData = new int[2 * capacity];
+			capacity = 2 * capacity;
+			System.arraycopy(data, 0, biggerData, 0, data.length);
+		}
+		
+		data[size] = element;
+		return size++;
+	}
+}

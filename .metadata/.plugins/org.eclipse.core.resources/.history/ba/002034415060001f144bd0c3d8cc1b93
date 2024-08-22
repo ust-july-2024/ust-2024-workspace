@@ -1,0 +1,11 @@
+package classesandobjects;
+
+public class Dog extends Animal{
+
+	@Override
+	void mobility() {
+		System.out.println(getName() + " walks on 4 legs");
+		
+	}
+
+}

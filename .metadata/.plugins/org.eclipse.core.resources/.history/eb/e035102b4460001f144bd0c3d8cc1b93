@@ -1,0 +1,9 @@
+package classesandobjects;
+
+public class FordFigoTitanium extends FordFigo {
+	int noOfAirbags;
+	
+	String ejectAirbags() {
+		return model + " airbags ejected";
+	}
+}

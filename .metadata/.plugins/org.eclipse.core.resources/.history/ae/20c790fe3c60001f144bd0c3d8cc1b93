@@ -1,0 +1,14 @@
+package classesandobjects;
+
+public class FordDemo {
+
+	public static void main(String[] args) {
+		int mark;
+		mark = 50;
+		
+		FordFigo figo1;
+		figo1 = new FordFigo();
+		
+	}
+
+}

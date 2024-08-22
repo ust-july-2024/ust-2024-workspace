@@ -1,0 +1,28 @@
+package classesandobjects;
+
+public class FordDemo {
+
+	public static void main(String[] args) {
+//		int mark;
+//		mark = 50;
+		
+		int mark = 50;
+		
+//		FordFigo figo1;
+//		figo1 = new FordFigo();
+		FordFigo figo1 = new FordFigo();
+		
+		figo1.model = "FIGO";
+		figo1.color = "silver";
+		figo1.price = 500000.0;
+		figo1.year = 2024;
+		figo1.registrationNumber - "TN45Z3456";
+		
+		System.out.println(figo1.startCar());
+		System.out.println(figo1.accelerate());
+		System.out.println(figo1.applyBrakes());
+		System.out.println(figo1.stopCar());
+		
+	}
+
+}
