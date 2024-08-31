@@ -1,0 +1,9 @@
+package exceptions;
+
+public class InvalidOptionException extends Exception{
+	int option;
+	public InvalidOptionException(int option) {
+		this.option = option;
+	}
+	
+}

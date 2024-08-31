@@ -1,0 +1,15 @@
+package multithreading;
+
+public class PrinterResource {
+
+	// [hello]
+	// [welcome]
+	// [java]
+	public void print(String msg) {
+		System.out.print("[");
+		System.out.println(msg);
+		Thread.sleep(500);
+		System.out.println("]");
+		
+	}
+}

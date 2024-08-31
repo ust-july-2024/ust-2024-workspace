@@ -1,0 +1,16 @@
+package exceptions;
+
+public class Demo3 {
+
+	public static void main(String[] args) {
+		// throw is used to explicitly throw an exception
+		try {
+			ArithmeticException ae = new ArithmeticException();
+			throw ae;	
+		}catch(ArithmeticException ae) {
+			System.out.println(ae.getMessage());
+		}
+		
+	}
+
+}

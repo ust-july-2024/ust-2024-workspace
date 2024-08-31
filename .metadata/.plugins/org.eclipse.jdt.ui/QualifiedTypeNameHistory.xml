@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="classesandobjects.FordFigo"/>
+    <fullyQualifiedTypeName name="classesandobjects.FordFigoTitanium"/>
+    <fullyQualifiedTypeName name="classesandobjects.SafetyGuidelines2021"/>
+    <fullyQualifiedTypeName name="collections.MySimpleArrayList"/>
+</qualifiedTypeNameHistroy>

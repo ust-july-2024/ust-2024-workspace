@@ -1,0 +1,8 @@
+package multithreading;
+
+public class ChildThread extends Thread{
+	
+	public ChildThread(String name) {
+		setName(name);
+	}
+}

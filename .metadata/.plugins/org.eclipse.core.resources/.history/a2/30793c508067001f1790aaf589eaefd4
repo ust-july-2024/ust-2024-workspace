@@ -1,0 +1,21 @@
+package multithreading;
+
+public class ChildRunnable implements Runnable{
+	Thread t;
+	
+	public ChildRunnable(String name) {
+		t = new Thread(this);
+		t.setName(name);
+		
+	}
+	
+	@Override
+	public void run() {
+		for(int i=1;i<=5;i++) {
+			System.out.println(t.getName() + " : " + i);
+			Thread.sleep(500);
+		}
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package multithreading;
+
+public class ChildPriorityThreadDemo {
+
+	public static void main(String[] args) {
+		ChildPriorityThread cpt1 = new ChildPriorityThread("Child1", Thread.MIN_PRIORITY);
+		ChildPriorityThread cpt2 = new ChildPriorityThread("Child2", Thread.MAX_PRIORITY);
+		
+		
+	}
+
+}

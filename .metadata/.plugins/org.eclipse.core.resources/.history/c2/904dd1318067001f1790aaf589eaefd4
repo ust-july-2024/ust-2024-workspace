@@ -1,0 +1,17 @@
+package multithreading;
+
+public class ChildRunnable implements Runnable{
+	Thread t;
+	
+	public ChildRunnable(String name) {
+		t = new Thread(this);
+		
+	}
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package filehandling;
+
+public class ReadJSONFromFileDemo {
+
+	public static void main(String[] args) {
+		FileReader fileReader = new FileReader("output.json");
+	}
+
+}

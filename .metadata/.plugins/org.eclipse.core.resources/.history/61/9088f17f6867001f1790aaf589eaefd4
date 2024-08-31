@@ -1,0 +1,31 @@
+package exceptions;
+
+public class Demo5 {
+
+	public static void main(String[] args) {
+		method1();
+	}
+
+	public static void method1() {
+		method2();
+	}
+	
+	public static void method2() {
+		try {
+			method3();
+		} catch (InvalidOptionException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	public static void method3()throws InvalidOptionException {
+		int option = 7;
+		
+		if(option > 5 || option < 1) {
+			InvalidOptionException ioe = new InvalidOptionException(option);
+			throw ioe;
+		}	
+	}
+	
+}

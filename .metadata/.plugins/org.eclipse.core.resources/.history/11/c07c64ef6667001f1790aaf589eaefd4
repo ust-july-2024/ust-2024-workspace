@@ -1,0 +1,14 @@
+package exceptions;
+
+public class Demo4 {
+
+	public static void main(String[] args) {
+		int option = 9;
+		
+		if(option > 5 || option < 1) {
+			InvalidOptionException ioe = new InvalidOptionException(option);
+			throw ioe;
+		}
+	}
+
+}

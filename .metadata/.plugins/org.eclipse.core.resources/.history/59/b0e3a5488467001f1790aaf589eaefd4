@@ -1,0 +1,23 @@
+package multithreading;
+
+public class PrintRequestThread implements Runnable{
+	Thread t;
+	PrinterResource printer;
+	String msg;
+	
+	public PrintRequestThread(String name, PrinterResource printer, String msg) {
+		t = new Thread(this);
+		t.setName(name);
+		t.start();
+		
+		this.msg = msg;
+		this.printer = printer;
+	}
+	
+	@Override
+	public void run() {
+		printer.print(msg);
+	}
+	
+
+}

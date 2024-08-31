@@ -1,0 +1,21 @@
+package filehandling;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+import org.json.simple.parser.JSONParser;
+
+public class ReadJSONFromFileDemo {
+
+	public static void main(String[] args) {
+		try {
+			FileReader fileReader = new FileReader("output.json");
+			JSONParser parser = new JSONParser();
+			JSONObject obj = (JSONObject)parser.parse(fileReader);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

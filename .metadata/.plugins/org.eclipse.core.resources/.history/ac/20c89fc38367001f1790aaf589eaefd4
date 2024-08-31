@@ -1,0 +1,8 @@
+package multithreading;
+
+public class PrinterResource {
+
+	public void print(String msg) {
+		
+	}
+}
